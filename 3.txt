@@ -1,0 +1,691 @@
+Total allocated: 14963078 bytes (280454 objects)
+Total retained:  349980 bytes (2691 objects)
+
+allocated memory by gem
+-----------------------------------
+  14085062  holidays/lib
+    878016  other
+
+allocated memory by file
+-----------------------------------
+   3641392  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb
+   2493296  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb
+   2337920  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb
+   1402760  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb
+   1252672  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb
+   1169120  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb
+    878016  script.rb
+    584480  /Users/zcotter/code/holidays/lib/holidays/core_extensions/date.rb
+    292240  /Users/zcotter/code/holidays/lib/holidays.rb
+    292240  /Users/zcotter/code/holidays/lib/holidays/definition/validator/region.rb
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/date_calculator.rb
+    143918  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb
+     96640  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb
+     36784  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb
+     26064  /Users/zcotter/code/holidays/lib/holidays/date_calculator/day_of_month.rb
+     14728  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb
+      5328  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb
+      1872  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb
+       696  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb
+       552  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb
+       120  /Users/zcotter/code/holidays/lib/holidays/definition/repository/regions.rb
+
+allocated memory by location
+-----------------------------------
+   1694992  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:12
+   1262640  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:15
+   1052064  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:16
+    878016  script.rb:19
+    876720  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:78
+    584480  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:15
+    526040  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:19
+    375952  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:23
+    341880  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:56
+    292472  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:19
+    292240  /Users/zcotter/code/holidays/lib/holidays.rb:32
+    292240  /Users/zcotter/code/holidays/lib/holidays/core_extensions/date.rb:19
+    292240  /Users/zcotter/code/holidays/lib/holidays/core_extensions/date.rb:28
+    292240  /Users/zcotter/code/holidays/lib/holidays/definition/validator/region.rb:23
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/date_calculator.rb:37
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:115
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:49
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:56
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:78
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:28
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:52
+    292240  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:62
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:14
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:24
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:35
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:14
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:13
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:22
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:38
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:43
+    292240  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:88
+    282600  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:20
+    140128  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:28
+    131310  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+     56144  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:107
+     48320  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:23
+     43488  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:90
+     24840  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:34
+     24800  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:40
+     24160  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:11
+     24160  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:12
+     22600  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:24
+     21744  /Users/zcotter/code/holidays/lib/holidays/date_calculator/day_of_month.rb:43
+     17424  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:54
+     14568  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+      9680  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:39
+      9680  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:65
+      9680  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:113
+      9640  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:48
+      9184  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+allocated memory by class
+-----------------------------------
+   8527792  Array
+   1898864  Hash
+    755854  String
+    614808  Date
+    526040  Holidays::Finder::Context::Search
+    292240  Holidays::DateCalculator::DayOfMonth
+    292240  Holidays::Definition::Context::FunctionProcessor
+    292240  Holidays::Definition::Context::Load
+    292240  Holidays::Definition::Context::Merger
+    292240  Holidays::Definition::Validator::Region
+    292240  Holidays::Finder::Context::Between
+    292240  Holidays::Finder::Context::DatesDriverBuilder
+    292240  Holidays::Finder::Context::ParseOptions
+    292240  Range
+      8424  File
+       520  Class
+       456  Module
+        40  Holidays::Definition::Repository::Cache
+        40  Holidays::Definition::Repository::HolidaysByMonth
+        40  Holidays::Definition::Repository::ProcResultCache
+        40  Holidays::Definition::Repository::Regions
+
+allocated objects by gem
+-----------------------------------
+    265842  holidays/lib
+     14612  other
+
+allocated objects by file
+-----------------------------------
+     58448  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb
+     45770  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb
+     31706  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb
+     29228  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb
+     29224  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb
+     29224  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb
+     14612  /Users/zcotter/code/holidays/lib/holidays/core_extensions/date.rb
+     14612  script.rb
+      7306  /Users/zcotter/code/holidays/lib/holidays.rb
+      7306  /Users/zcotter/code/holidays/lib/holidays/definition/validator/region.rb
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/date_calculator.rb
+      2416  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb
+      2019  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb
+       726  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb
+       362  /Users/zcotter/code/holidays/lib/holidays/date_calculator/day_of_month.rb
+        96  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb
+        52  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb
+        26  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb
+         9  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb
+         3  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb
+         3  /Users/zcotter/code/holidays/lib/holidays/definition/repository/regions.rb
+
+allocated objects by location
+-----------------------------------
+     21918  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:78
+     14612  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:15
+     14612  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:16
+     14612  script.rb:19
+      8547  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:56
+      7307  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:19
+      7306  /Users/zcotter/code/holidays/lib/holidays.rb:32
+      7306  /Users/zcotter/code/holidays/lib/holidays/core_extensions/date.rb:19
+      7306  /Users/zcotter/code/holidays/lib/holidays/core_extensions/date.rb:28
+      7306  /Users/zcotter/code/holidays/lib/holidays/definition/validator/region.rb:23
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/date_calculator.rb:37
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:115
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:49
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:56
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:78
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:19
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:28
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:52
+      7306  /Users/zcotter/code/holidays/lib/holidays/factory/finder.rb:62
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:14
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:23
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:24
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:35
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:12
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:14
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:15
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:13
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:22
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:38
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:43
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:88
+      7065  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:20
+      1936  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+      1208  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:23
+       621  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:34
+       620  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:40
+       604  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:28
+       604  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:90
+       604  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:11
+       604  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:12
+       302  /Users/zcotter/code/holidays/lib/holidays/date_calculator/day_of_month.rb:43
+       242  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:39
+       242  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:54
+       242  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:65
+       242  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:107
+       242  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:113
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:24
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:48
+        92  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+        82  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+allocated objects by class
+-----------------------------------
+    173334  Array
+     17343  String
+      8539  Date
+      8171  Hash
+      7306  Holidays::DateCalculator::DayOfMonth
+      7306  Holidays::Definition::Context::FunctionProcessor
+      7306  Holidays::Definition::Context::Load
+      7306  Holidays::Definition::Context::Merger
+      7306  Holidays::Definition::Validator::Region
+      7306  Holidays::Finder::Context::Between
+      7306  Holidays::Finder::Context::DatesDriverBuilder
+      7306  Holidays::Finder::Context::ParseOptions
+      7306  Holidays::Finder::Context::Search
+      7306  Range
+         1  Class
+         1  File
+         1  Holidays::Definition::Repository::Cache
+         1  Holidays::Definition::Repository::HolidaysByMonth
+         1  Holidays::Definition::Repository::ProcResultCache
+         1  Holidays::Definition::Repository::Regions
+         1  Module
+
+retained memory by gem
+-----------------------------------
+    349980  holidays/lib
+
+retained memory by file
+-----------------------------------
+    206376  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb
+     99192  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb
+     12608  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb
+      9640  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb
+      9640  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb
+      4504  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb
+      4032  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb
+      1872  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb
+       696  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb
+       668  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb
+       552  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb
+       160  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb
+        40  /Users/zcotter/code/holidays/lib/holidays/definition/repository/regions.rb
+
+retained memory by location
+-----------------------------------
+    140128  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:28
+     55912  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:12
+     41640  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:15
+     26064  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:90
+     22600  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:24
+     17352  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:16
+      9640  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:35
+      9640  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:78
+      9184  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+      4032  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:54
+      3424  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:25
+      1008  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb:59
+       864  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb:58
+       840  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:34
+       800  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:40
+       668  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+       544  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:34
+       520  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:9
+       392  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:15
+       392  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:19
+       392  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:22
+       392  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:24
+       320  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb:20
+       312  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:16
+       312  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:17
+       312  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:18
+       312  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:20
+       312  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:21
+       312  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:23
+       232  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb:30
+       232  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb:31
+       232  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb:37
+       232  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb:6
+       232  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:19
+        40  /Users/zcotter/code/holidays/lib/holidays/definition/repository/regions.rb:35
+        40  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:103
+        40  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:88
+        40  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:92
+        40  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:99
+
+retained memory by class
+-----------------------------------
+    202944  Hash
+    103432  Array
+     31968  Date
+     10500  String
+       520  Class
+       456  Module
+        40  Holidays::Definition::Repository::Cache
+        40  Holidays::Definition::Repository::HolidaysByMonth
+        40  Holidays::Definition::Repository::ProcResultCache
+        40  Holidays::Definition::Repository::Regions
+
+retained objects by gem
+-----------------------------------
+      2691  holidays/lib
+
+retained objects by file
+-----------------------------------
+      1449  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb
+       523  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb
+        83  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb
+        56  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb
+        41  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb
+        26  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb
+        14  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb
+         9  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb
+         4  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb
+         3  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/regions.rb
+
+retained objects by location
+-----------------------------------
+       604  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:28
+       362  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:90
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/between.rb:35
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:12
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:15
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:78
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:16
+       241  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:24
+        82  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+        56  /Users/zcotter/code/holidays/lib/holidays/definition/context/function_processor.rb:54
+        21  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:34
+        20  /Users/zcotter/code/holidays/lib/holidays/finder/context/dates_driver_builder.rb:40
+        14  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb:59
+        14  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+        12  /Users/zcotter/code/holidays/lib/holidays/date_calculator/weekend_modifier.rb:58
+         8  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb:20
+         5  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:15
+         5  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:19
+         5  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:22
+         5  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:24
+         3  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:16
+         3  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:17
+         3  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:18
+         3  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:20
+         3  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:21
+         3  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:23
+         2  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:34
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:9
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb:30
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb:31
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/cache.rb:37
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/holidays_by_month.rb:6
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:25
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/regions.rb:35
+         1  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:103
+         1  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:88
+         1  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:92
+         1  /Users/zcotter/code/holidays/lib/holidays/factory/definition.rb:99
+         1  /Users/zcotter/code/holidays/lib/holidays/finder/context/search.rb:19
+
+retained objects by class
+-----------------------------------
+      1269  Array
+       861  Hash
+       444  Date
+       111  String
+         1  Class
+         1  Holidays::Definition::Repository::Cache
+         1  Holidays::Definition::Repository::HolidaysByMonth
+         1  Holidays::Definition::Repository::ProcResultCache
+         1  Holidays::Definition::Repository::Regions
+         1  Module
+
+
+Allocated String Report
+-----------------------------------
+     15217  "federalreserve"
+      7306  /Users/zcotter/code/holidays/lib/holidays/definition/validator/region.rb:23
+      7306  /Users/zcotter/code/holidays/lib/holidays/finder/context/parse_options.rb:88
+       604  /Users/zcotter/code/holidays/lib/holidays/finder/rules/in_region.rb:12
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:11
+
+       484  "#<Proc:0x00007ffa989bd328 (lambda)>"
+       484  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+       484  "Proc"
+       484  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+       242  "_"
+       242  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         8  "to_weekday_if_weekend(date)"
+         4  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:15
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:19
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:22
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:24
+
+         7  "/Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb"
+         7  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         6  "2020-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2020-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2020-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2021-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2021-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2021-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2021-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2022-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2022-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2022-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2022-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2023-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2023-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2023-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2023-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2024-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2024-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2024-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2024-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2025-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2025-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2025-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2025-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2026-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2026-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2026-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2026-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2027-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2027-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2027-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2027-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2028-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2028-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2028-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2028-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2029-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2029-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2029-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2029-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2030-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2030-07-04"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2030-11-11"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2030-12-25"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+         6  "2031-01-01"
+         6  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:46
+
+
+Retained String Report
+-----------------------------------
+         4  "to_weekday_if_weekend(date)"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:15
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:19
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:22
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:24
+
+         2  "/Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb"
+         2  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Birthday of Martin Luther King, Jr"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:16
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Christmas Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:24
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Columbus Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:21
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Independence Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:19
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Labor Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:20
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Memorial Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:18
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "New Year's Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:15
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Thanksgiving Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:23
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Veterans Day"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:22
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         2  "Washington's Birthday"
+         1  /Users/zcotter/code/holidays/lib/generated_definitions/federalreserve.rb:17
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/context/load.rb:12
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2019-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2020-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2020-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2020-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2020-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2021-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2021-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2021-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2021-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2022-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2022-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2022-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2022-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2023-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2023-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2023-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2023-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2024-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2024-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2024-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2024-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2025-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2025-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2025-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2025-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2026-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2026-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2026-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2026-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2027-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2027-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2027-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2027-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2028-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2028-07-04"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2028-11-11"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2028-12-25"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+
+         1  "#<Proc:0x00007ffa989bd328 (lambda)>_2029-01-01"
+         1  /Users/zcotter/code/holidays/lib/holidays/definition/repository/proc_result_cache.rb:32
+

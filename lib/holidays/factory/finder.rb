@@ -11,6 +11,11 @@ module Holidays
   module Factory
     module Finder
       class << self
+        @@_rules = {
+          :in_region => Holidays::Finder::Rules::InRegion,
+          :year_range => Holidays::Finder::Rules::YearRange,
+        }
+        
         def search
           Holidays::Finder::Context::Search.new(
             Factory::Definition.holidays_by_month_repository,
@@ -59,10 +64,7 @@ module Holidays
         end
 
         def rules
-          {
-            :in_region => Holidays::Finder::Rules::InRegion,
-            :year_range => Holidays::Finder::Rules::YearRange,
-          }
+          @@_rules
         end
       end
     end
