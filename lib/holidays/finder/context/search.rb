@@ -2,6 +2,8 @@ module Holidays
   module Finder
     module Context
       class Search
+        @@_call_cache = {}
+
         def initialize(holidays_by_month_repo, custom_method_processor, day_of_month_calculator, rules)
           @holidays_by_month_repo = holidays_by_month_repo
           @custom_method_processor = custom_method_processor
@@ -9,7 +11,14 @@ module Holidays
           @rules = rules
         end
 
+        def call_cache_key(*args)
+          args + [@rules]
+        end
+
         def call(dates_driver, regions, options)
+          if @@_call_cache[call_cache_key(dates_driver, regions, options)]
+            return @@_call_cache[call_cache_key(dates_driver, regions, options)]
+          end
           validate!(dates_driver)
 
           holidays = []
@@ -36,7 +45,7 @@ module Holidays
             end
           end
 
-          holidays
+          @@_call_cache[call_cache_key(dates_driver, regions, options)] = holidays
         end
 
         private
