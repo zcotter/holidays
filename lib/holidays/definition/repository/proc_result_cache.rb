@@ -43,7 +43,7 @@ module Holidays
         end
 
         def build_proc_key(function, function_arguments)
-          Digest::MD5.hexdigest("#{function.to_s}_#{function_arguments.join('_')}")
+          "#{function.to_s}_#{function_arguments.join('_')}"
         end
       end
     end
