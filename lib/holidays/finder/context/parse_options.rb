@@ -90,7 +90,7 @@ module Holidays
         end
 
         def is_wildcard?(r)
-          r.to_s =~ /_$/
+          r.match?(/_$/)
         end
 
         def load_wildcard_parent!(wildcard_region)

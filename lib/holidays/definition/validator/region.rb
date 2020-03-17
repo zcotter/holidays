@@ -20,12 +20,10 @@ module Holidays
 
         # Ex: :gb_ transformed to :gb
         def find_wildcard_base(region)
-          r = region.to_s
-
-          if r =~ /_$/
-            base = r.split('_').first
+          if region.match?(/_$/)
+            base = region.to_s.split('_').first
           else
-            base = r
+            base = region
           end
 
           base.to_sym

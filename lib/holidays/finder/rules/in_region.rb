@@ -9,7 +9,7 @@ module Holidays
             # When an underscore is encountered, derive the parent regions
             # symbol and check for both.
             requested = requested.collect do |r|
-              if r.to_s =~ /_/
+              if r.match?(/_/)
                 chunks = r.to_s.split('_')
 
                 chunks.length.downto(1).map do |num|
