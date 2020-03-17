@@ -75,7 +75,12 @@ module Holidays
             end
           end
 
-          loaded_regions.flatten.compact.uniq
+          if loaded_regions.length == 1  && loaded_regions.first.is_a?(Symbol)
+            # Optimize in the case that there is only a single loaded region
+            loaded_regions
+          else
+            loaded_regions.flatten.compact.uniq
+          end
         end
 
         def validate!(regions)
