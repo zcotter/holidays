@@ -8,6 +8,9 @@ module Holidays
   module Finder
     module Context
       class DatesDriverBuilder
+        # TODO this is the next highest memory utilization, but caching dates_driver by start and end date results in
+        #   0 cache hits for our use case (but many when test suite is run).
+        # Can potentially investigate caching per-date or wherever this is called
         def call(start_date, end_date)
           dates_driver = {}
 
