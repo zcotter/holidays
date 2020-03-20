@@ -46,13 +46,25 @@ module Holidays
         end
 
         def function_processor
-          Holidays::Definition::Context::FunctionProcessor.new(
+          @@_function_processor ||= Holidays::Definition::Context::FunctionProcessor.new(
             custom_methods_repository,
             proc_result_cache_repository,
           )
         end
 
+        @@_holidays_by_month_repositories = []
+        @@_regions_repositories = []
+        @@_custom_methods_repositories = []
         def merger
+          #@@_holidays_by_month_repositories << holidays_by_month_repository
+          #@@_regions_repositories << regions_repository
+          #@@_custom_methods_repositories << custom_methods_repository
+          #puts "HBMR: #{@@_holidays_by_month_repositories.uniq.count}"
+          #puts "RR: #{@@_regions_repositories.uniq.count}"
+          #puts "CMR: #{@@_custom_methods_repositories.uniq.count}"
+          # HBMR: 8
+          # RR: 8
+          # CMR: 1
           Holidays::Definition::Context::Merger.new(
             holidays_by_month_repository,
             regions_repository,
@@ -85,7 +97,7 @@ module Holidays
         end
 
         def holidays_by_month_repository
-          @holidays_repo ||= Holidays::Definition::Repository::HolidaysByMonth.new
+          @@_holidays_repo ||= Holidays::Definition::Repository::HolidaysByMonth.new
         end
 
         def regions_repository
@@ -112,6 +124,8 @@ module Holidays
         end
 
         def loader
+          # TODO memoize merger first
+          #@@_loader ||=
           Holidays::Definition::Context::Load.new(
             merger,
             Holidays::FULL_DEFINITIONS_PATH,
@@ -119,21 +133,21 @@ module Holidays
         end
 
         def module_generator
-          Holidays::Definition::Generator::Module.new
+          @@_module_generator ||= Holidays::Definition::Generator::Module.new
         end
 
         def test_generator
-          Holidays::Definition::Generator::Test.new(
+          @@_test_generator ||= Holidays::Definition::Generator::Test.new(
             test_decorator,
           )
         end
 
         def test_decorator
-          Holidays::Definition::Decorator::Test.new
+          @@_test_decorator ||= Holidays::Definition::Decorator::Test.new
         end
 
         def test_parser
-          Holidays::Definition::Parser::Test.new(
+          @@_test_parser ||= Holidays::Definition::Parser::Test.new(
             Holidays::Definition::Validator::Test.new,
           )
         end

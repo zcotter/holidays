@@ -12,8 +12,9 @@ module Holidays
         end
 
         def call(dates_driver, regions, options)
-          if @@_call_cache[[dates_driver, regions, options, @rules]]
-            return @@_call_cache[[dates_driver, regions, options, @rules]]
+          cache_key = [dates_driver, regions, options, @rules]
+          if @@_call_cache[cache_key]
+            return @@_call_cache[cache_key]
           end
           validate!(dates_driver)
 
@@ -41,7 +42,7 @@ module Holidays
             end
           end
 
-          @@_call_cache[[dates_driver, regions, options, @rules]] = holidays
+          @@_call_cache[cache_key] = holidays
         end
 
         private

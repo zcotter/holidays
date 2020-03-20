@@ -15,9 +15,9 @@ module Holidays
           :in_region => Holidays::Finder::Rules::InRegion,
           :year_range => Holidays::Finder::Rules::YearRange,
         }
-        
+
         def search
-          Holidays::Finder::Context::Search.new(
+          @_search ||= Holidays::Finder::Context::Search.new(
             Factory::Definition.holidays_by_month_repository,
             Factory::Definition.function_processor,
             Factory::DateCalculator.day_of_month_calculator,
@@ -49,9 +49,24 @@ module Holidays
           )
         end
 
+        @@_regions_repositories = []
+        @@_region_validators = []
+        @@_loaders = []
         def parse_options
+          #@@_regions_repositories << Factory::Definition.regions_repository
+          #@@_region_validators << Factory::Definition.region_validator
+          #@@_loaders << Factory::Definition.loader
+          #puts "Regions Repositories: #{@@_regions_repositories.uniq.count}"
+          #puts "Region Validators: #{@@_region_validators.uniq.count}"
+          #puts "Loaders: #{@@_loaders.uniq.count}"
+          # Regions Repositories: 3
+          # Region Validators: 2907
+          # Loaders: 2907
+          #binding.pry
+          #@@_parse_options ||=
           Holidays::Finder::Context::ParseOptions.new(
             Factory::Definition.regions_repository,
+            # This is a function of repository
             Factory::Definition.region_validator,
             Factory::Definition.loader,
           )
@@ -60,7 +75,7 @@ module Holidays
         private
 
         def dates_driver_builder
-          Holidays::Finder::Context::DatesDriverBuilder.new
+          @@_dates_driver_builder ||= Holidays::Finder::Context::DatesDriverBuilder.new
         end
 
         def rules
